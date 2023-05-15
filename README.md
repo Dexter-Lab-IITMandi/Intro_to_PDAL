@@ -2,7 +2,9 @@
 
 # Introduction to PDAL
 This tutorial was provided as part of a training session at the [EarthCube Advancing the Analysis of HRT Workshop #2](https://opentopography.org/workshops/earthcube-advancing-analysis-hrt-workshop-2) from May 8-10, 2023 at Arizona State University. The intended audience is users who have either never used [PDAL](https://pdal.io/en/latest/) or are novice users.  This tutorial will focus on basic syntax and some simple workflows to get
-users familiar with working from PDAL.  Topics include:
+users familiar with working from PDAL.  
+
+Topics include:
 - Working with pipelines
 - Learning how to interrogate point clouds with PDAL (e.g. metadata, basic stats, etc.)
 - Pre-processing datasets (e.g. thinning, filtering, etc.)
