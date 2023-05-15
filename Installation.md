@@ -11,7 +11,7 @@
 
 # Necessary Software <a name ="necssary"></a>
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a free, light-weight version of conda.  It will be used to install most essential command line based software.  Details on how to install miniconda are in the [section below](#conda)
-- Workshop materials will be hosted on the github repo: https://github.com/mattbeckley/PDALIntro  Updates to the workshop will be pushed to this site, so make sure to sync with the latest version before the workshop (see section: [Clone or Download Git Repo](#git))
+- Workshop materials will be hosted on the github repo: https://github.com/OpenTopography/Intro_to_PDAL Updates to the workshop will be pushed to this site, so make sure to sync with the latest version before the workshop (see section: [Clone or Download Git Repo](#git))
 - [PDAL](https://pdal.io/en/2.5.3/about.html). The workshop will follow the markdown tutorials using a command line version of PDAL.  Users are expected to have a working version of PDAL so that they can copy and paste commands from the tutorial into their PDAL installation. It is HIGHLY recommended that users use conda to install PDAL.  Details on how to do this are [below](#conda)
 
 - [GDAL](https://gdal.org/download.html#conda). Portions of  the tutorial will utilize GDAL to grid point clouds, look at metadata, perform raster math, etc. It is recommended that users use conda to install GDAL.  Details on how to do this are [below](#conda).
@@ -45,7 +45,7 @@ gdalinfo --version
 ```
 
 # Step 2: Clone or Download Git Repo <a name ="git"></a>
-- All the workshop materials: tutorials, sample data, sample pipelines, etc are in the repo: https://github.com/mattbeckley/PDALIntro
+- All the workshop materials: tutorials, sample data, sample pipelines, etc are in the repo: https://github.com/OpenTopography/Intro_to_PDAL
 - Users familiar with git should clone this repo
 - If you are unfamiliar with git or unable to install it, you can download a zip file directly from Github repo so that workshop materials are available locally:
 
@@ -55,7 +55,7 @@ gdalinfo --version
 # Step 3: Recommended Software <a name ="recommended"></a>
 
 - GIS.  It will be useful to have a GIS (e.g. QGIS, ArcGIS, Global Mapper) to visualize some of the raster outputs.  Users who do not have a GIS can download and install the freely available QGIS software: https://www.qgis.org/en/site/forusers/download.html  **Note that starting in version 3.18, QGIS has native point cloud support.**
-- [git](https://github.com/git-guides/install-git). Cloning of the [git repo for this workshop](https://github.com/mattbeckley/PDALIntro) is recommended so that users have local access to the data, pipelines, and markdown documents for the workshop. **If you are new to to git**, it is recommended to use [git Desktop](https://desktop.github.com/)
+- [git](https://github.com/git-guides/install-git). Cloning of the [git repo for this workshop](https://github.com/OpenTopography/Intro_to_PDAL) is recommended so that users have local access to the data, pipelines, and markdown documents for the workshop. **If you are new to to git**, it is recommended to use [git Desktop](https://desktop.github.com/)
 - Jupyter notebook. Best installed with conda ([see Optional Jupyter Notebook Set Up](#jupyter))
 - [jq](https://stedolan.github.io/jq/): a useful JSON parser.  Best installed with conda ([see conda section above](#conda))
 
