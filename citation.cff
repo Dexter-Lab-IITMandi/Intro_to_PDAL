@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Beckley"
   given-names: "Matthew"
-title: "Intro_to_PDAL"
+title: "Introduction to PDAL"
 version: 1.0.0
 date-released: 2023-05-15
 url: "https://github.com/OpenTopography/Intro_to_PDAL"
